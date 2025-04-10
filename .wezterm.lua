@@ -158,4 +158,11 @@ config.initial_cols = 80
 	-- brightness = 0.1,
 -- }
 
+config.launch_menu = {
+	{
+	  label = 'Git Bash',
+	  args = { 'C:\\Program Files\\Git\\bin\\bash.exe', '--login', '-i' },
+	},
+  }
+
 return config
